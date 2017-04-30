@@ -1,13 +1,13 @@
 {
   "development": {
-    "url": "mongodb://127.0.0.1:27017/landingPageDev",
+    "url": "mongodb://misha:12345@ds127341.mlab.com:27341/lending",
     "nodemailer": {
       "user": "testingtestlending@gmail.com",
       "pass": "12345lending"
     }
   },
   "production": {
-    "url": "mongodb://127.0.0.1:27017/landingPageProd",
+    "url": "mongodb://misha:12345@ds127341.mlab.com:27341/lending",
     "nodemailer": {
       "user": "testingtestlending@gmail.com",
       "pass": "12345lending"

@@ -52,7 +52,7 @@ process.on('SIGINT', () => {
     });
 });
 
-require('./database/model_methods/Create');
+// require('./database/model_methods/Create');
 
 let allowCrossDomain = (req, res, next) =>{
     res.header("Access-Control-Allow-Origin", "*");
